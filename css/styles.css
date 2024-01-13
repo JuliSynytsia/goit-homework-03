@@ -28,7 +28,7 @@ p, h1, h2, h3, h4, h5, h6{
     }
 
     .container { 
-        width: 1470px;
+        width: 1158px;
         padding-left: 15px; 
         padding-right: 15px; 
         margin-left: 0; 
@@ -36,12 +36,12 @@ p, h1, h2, h3, h4, h5, h6{
         }
     /* HEADER */ 
     .header-container{
-        border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+        border-bottom: 1px solid #E7E9FC;
+        display: flex;
     }
 .header-nav-flex{
     display: flex;
     margin-right: 332px;
-    
 }
 .header-menu{
     display: flex;
