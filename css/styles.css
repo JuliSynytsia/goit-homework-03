@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color:#434455;
     background-color:#FFFFFF;
     }
@@ -35,7 +35,9 @@ p, h1, h2, h3, h4, h5, h6{
        margin: 0 auto; 
         }
     /* HEADER */ 
-
+.header-navigation{
+    
+}
     .header-container{
         border-bottom: 1px solid #E7E9FC;
         display: flex; 
@@ -49,7 +51,7 @@ p, h1, h2, h3, h4, h5, h6{
 .header-menu{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    
     }
     .logo{
         color:#4D5AE5;
@@ -80,6 +82,7 @@ p, h1, h2, h3, h4, h5, h6{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
         }
     .header-nav:hover,
     .header-nav:focus {
@@ -109,7 +112,6 @@ p, h1, h2, h3, h4, h5, h6{
 
 
     /* HERO */
-
     .main-container{
         border: 1px solid #000;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);background-color:#2E2F42;
@@ -131,9 +133,11 @@ p, h1, h2, h3, h4, h5, h6{
     .hero-btn{
         display: block;
             font-family: 'Roboto', sans-serif;
-            
+           min-width: 169px; 
+           height: 56px;
     color: #FFF;
     background: var(--IRIS, #4D5AE5);
+    border: none;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -142,6 +146,7 @@ p, h1, h2, h3, h4, h5, h6{
     margin: 0 auto;
           border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+cursor: pointer;
 
     }
     .hero-btn:hover,
@@ -162,13 +167,14 @@ position: absolute;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  margin-bottom: 8px;
       }
       
 .advantages-list{
     display: flex;
     gap:24px;
 }
-.advantages{
+.advantages-container{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -296,6 +302,7 @@ margin-bottom: 8px;
     display: flex;
     flex-direction: column;
     padding: 32px 16px;
+    border-top: none;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     border-top: none;
     background: var(--WHITE, #FFF);
