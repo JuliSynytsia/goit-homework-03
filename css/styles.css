@@ -157,6 +157,7 @@ cursor: pointer;
 
     /* ADVANTAGES */
     .visually-hidden {
+        display: none;
   position: absolute;
   width: 1px;
   height: 1px;
