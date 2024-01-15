@@ -168,9 +168,10 @@ cursor: pointer;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
+              }
+      .advantages-title{
         margin-bottom: 8px;
       }
-      
 .advantages-list{
     display: flex;
 gap: 24px;
