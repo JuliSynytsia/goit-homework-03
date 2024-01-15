@@ -26,7 +26,7 @@ p, h1, h2, h3, h4, h5, h6{
     li{
     list-style-type: none;
     margin: 0;
-    padding-left: 0;
+    /* padding-left: 0; */
     }
 
     .container { 
@@ -173,7 +173,7 @@ position: absolute;
       
 .advantages-list{
     display: flex;
-    gap:24px;
+
 }
 .advantages{
     padding-top: 120px;
@@ -203,11 +203,11 @@ flex-direction: column;
     /* TEAM */
     .team {
     background-color: #F4F4FD;
-    
+    padding-top: 120px;
+        padding-bottom: 120px;  
     }
     .team-container{
-        padding-top: 120px;
-        padding-bottom: 120px;    
+          
     }
     .team-flex{
         display: flex;
